@@ -1,14 +1,14 @@
 # Binance Futures Testnet Trading Bot
 
 ## Description
-This is a simple Python CLI application that places MARKET and LIMIT orders on Binance Futures Testnet.
+This is a simple Python CLI application that places MARKET and LIMIT orders on Binance Futures Testnet. The bot allows users to place BUY and SELL orders through the command line and handles API responses, errors, and logging.
 
 ## Features
-- MARKET orders
-- LIMIT orders
-- BUY and SELL support
-- Error handling
-- Logging
+- Place MARKET orders
+- Place LIMIT orders
+- Supports BUY and SELL operations
+- Error handling with try/except
+- Logging of order activity
 
 ## Installation
 
@@ -25,7 +25,7 @@ API_KEY=your_api_key
 API_SECRET=your_api_secret
 ```
 
-## Run
+## Run the Application
 
 ```bash
 python main.py
@@ -40,10 +40,16 @@ Order Type: MARKET
 Quantity: 0.01
 ```
 
-## Files
+## Project Structure
 
-- `client.py` - Binance connection
-- `orders.py` - Order functions
-- `main.py` - CLI application
-- `requirements.txt` - Dependencies
-- `README.md` - Documentation
+- `client.py` - Binance API connection and configuration
+- `orders.py` - Functions for placing MARKET and LIMIT orders
+- `main.py` - Command-line interface (CLI)
+- `requirements.txt` - Project dependencies
+- `README.md` - Project documentation
+
+## Assumptions
+
+- User has a Binance Futures Testnet account.
+- Valid Testnet API credentials are available.
+- Orders are placed on Binance USDT-M Futures Testnet.
