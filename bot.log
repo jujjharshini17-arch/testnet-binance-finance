@@ -1,0 +1,7 @@
+2026-06-01 11:54:12,867 - APIError(code=-2014): API-key format invalid.
+2026-06-01 11:56:26,387 - APIError(code=-2014): API-key format invalid.
+2026-06-01 12:02:04,773 - APIError(code=-2014): API-key format invalid.
+2026-06-01 12:34:39,801 - APIError(code=-2014): API-key format invalid.
+2026-06-01 13:44:53,912 - Invalid order type
+2026-06-01 13:46:26,785 - APIError(code=-4013): Price less than min price.
+2026-06-01 13:48:46,618 - {'orderId': 13676669680, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ23bef5f33f8274705f98cd', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.1000', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1780301928932}

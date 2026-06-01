@@ -1,6 +1,5 @@
 # Environment and virtualenv
 .env
-venv/.env
 venv/
 
 # Python artifacts
